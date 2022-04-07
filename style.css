@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #8d8daa;
+  font-family: "Lobster", cursive;
+}
+
+.clock {
+  height: 200px;
+  width: 400px;
+  background: #010a2d;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  column-gap: 20px;
+}
+.time span {
+  font-size: 60px;
+}
+.getDay {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+  column-gap: 10px;
+}
+.getDay span {
+  font-size: 40px;
+}
